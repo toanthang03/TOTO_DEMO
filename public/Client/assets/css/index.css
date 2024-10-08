@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corporate_main{
+    padding-top: 13.88889vw;
+    padding-bottom: 13.88889vw;
+    font-family: "Poppins", "Noto Sans JP", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
+    line-height: 24px;
+}
+#corporatePage .corporate_body{
+    width: 72.22222vw;
+    margin: 0 auto;
+    color: #353535;
+}
+
+section{
+    position: relative;
+    display: block;
+}
+#corporatePage .corporate_section{
+    margin-bottom: 14.93056vw;
+}
+
+#corporatePage .corporate_section_ttl{
+    font-weight: 500;
+    font-size: 2.77778vw;
+    letter-spacing: 0.025em;
+    margin-bottom: 1.73611vw;
+}
+
+#corporatePage .corporate_section_ttl_txt{
+    display: inline;
+    font-size: 100%;
+}
+
+@media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 2rem;
+    }
+}
+#corporatePage .corporate_section_ttl_time {
+    display: inline;
+    font-size: 1.11111vw;
+    margin-left: 2.08333vw;
+    font-weight: 600;
+}
+
+#corporatePage .corporate_detail_block{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    font-size: 1.11111vw;
+    line-height: 2.5vw;
+    letter-spacing: 0.05em;
+}
+
+#corporatePage .corporate_detail_block_ttl {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 19.44444vw;
+    color: #707070;
+    border-top: 1px solid #666666;
+    box-sizing: border-box;
+    padding-right: 2.77778vw;
+    font-weight: 500;
+}
+#corporatePage .corporate_detail_block_txt {
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    border-top: 1px solid #dfdfdf;
+    padding-left: 0.69444vw;
+    font-weight: 600;
+}
+#corporatePage .corporate_detail_block_ttl_note {
+    display: block;
+    font-size: 0.97222vw;
+    line-height: 1.80556vw;
+}
+#corporatePage .corporate_detail_block_txt {
+    padding: 2.43056vw 0;
+}
+#corporatePage .corporate_detail_block_ttl {
+    padding: 2.43056vw 0;
+}
+dd {
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+
